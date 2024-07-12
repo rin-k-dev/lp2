@@ -72,4 +72,24 @@ img {
   aspect-ratio: 390 / 450;
 }
 
+#main-visual .main-visual__title img.sp_only {
+  width: 36.67%;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+@media(min-width:768px) {
+  #main-visual .main-visual__photo {
+    width: 100%;
+    background-image: url('../image/main-visual-pc.png');
+    background-size: cover;
+    aspect-ratio: 1500 / 720;
+  }
+  #main-visual .main-visual__title img.pc_only {
+    width: 11.07%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+}
+
 /* #main-visual ここまで */
