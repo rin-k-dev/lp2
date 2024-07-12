@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+/* 共通 ここから */
+:root {
+  --color-white: #FFFFFF;
+  --color-blue: #0071CE;
+  --color-light-green: #F4FFE8;
+  --color-light-blue: #C6F0FE;
+  --color-dark-gray: #444444;
+  --color-black: #000000;
+  --color-aqua: #00AFBF;
+  --color-light-gray: #EEEEEE;
+  --color-very-light-blue: #DBF7F9;
+  --color-semi-transparent-black: #00000029;
+  --color-very-light-purple: #F0F4FF;
+  --color-very-dark-gray: #111111;
+  --color-mint-green: #5DD5AB;
+  --color-light-aqua: #46C4DB;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  font-size: 100%;
+}
+
+a {
+  text-decoration:none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* 共通 ここまで */
