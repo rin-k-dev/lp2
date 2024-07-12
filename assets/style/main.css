@@ -40,5 +40,20 @@ img {
   width: 100%;
 }
 
+.sp_only {
+  display: block;
+}
+.pc_only {
+  display: none;
+}
+
+@media(min-width:768px) {
+  .sp_only {
+    display: none;
+  }
+  .pc_only {
+    display: block;
+  }
+}
 
 /* 共通 ここまで */
