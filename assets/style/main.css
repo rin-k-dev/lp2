@@ -61,4 +61,15 @@ img {
 
 /* #main-visual ここから */
 
+#main-visual .main-visual__container {
+  width: 100%;
+}
+
+#main-visual .main-visual__photo {
+  width: 100%;
+  background-image: url('../image/main-visual-sp.png');
+  background-size: cover;
+  aspect-ratio: 390 / 450;
+}
+
 /* #main-visual ここまで */
