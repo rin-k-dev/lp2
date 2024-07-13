@@ -211,4 +211,26 @@ img {
   text-align: center;
   margin-top: 0.3125rem;
 }
+#kirameki-cream .kirameki-cream__link-onlineshop,#kirameki-cream .kirameki-cream__link-cart {
+  font-size: 1.125rem;
+  line-height: 1.44;
+  width: calc(100% - 3.625rem);
+  height: 3.625rem;
+  border-radius: 2.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#kirameki-cream .kirameki-cream__link-onlineshop {
+  background-color: var(--color-light-aqua);
+  margin: 1.25rem auto;
+}
+#kirameki-cream .kirameki-cream__link-cart {
+  background-color: var(--color-mint-green);
+  margin: 0 auto 2.125rem;
+}
+#kirameki-cream .kirameki-cream__link-onlineshop a, #kirameki-cream .kirameki-cream__link-cart a {
+  color: var(--color-white);
+}
 /* #kirameki-cream ここまで */
