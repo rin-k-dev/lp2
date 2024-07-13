@@ -184,17 +184,17 @@ img {
 
 /* #main-visual ここまで */
 
-/* #kirameki-cream ここから */
-#kirameki-cream .kirameki-cream__container {
+/* .kirameki-cream ここから */
+.kirameki-cream .kirameki-cream__container {
   width: calc(100% - 2rem);
   height: 16.3125rem;
   margin: 9.8125rem auto 3.125rem;
   background-color: var(--color-very-light-purple);
 }
-#kirameki-cream .kirameki-cream__title-wrapper {
+.kirameki-cream .kirameki-cream__title-wrapper {
   padding-top: 1.25rem;
 }
-#kirameki-cream .kirameki-cream__title {
+.kirameki-cream .kirameki-cream__title {
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.44;
@@ -202,7 +202,7 @@ img {
   letter-spacing: 0.1125rem;
   text-align: center;
 }
-#kirameki-cream .kirameki-cream__text {
+.kirameki-cream .kirameki-cream__text {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.43;
@@ -211,7 +211,7 @@ img {
   text-align: center;
   margin-top: 0.3125rem;
 }
-#kirameki-cream .kirameki-cream__link-onlineshop,#kirameki-cream .kirameki-cream__link-cart {
+.kirameki-cream .kirameki-cream__link-onlineshop,.kirameki-cream .kirameki-cream__link-cart {
   font-size: 1.125rem;
   line-height: 1.44;
   width: 18.75rem;
@@ -223,24 +223,24 @@ img {
   cursor: pointer;
   transition: all .3s;
 }
-#kirameki-cream .kirameki-cream__link-onlineshop {
+.kirameki-cream .kirameki-cream__link-onlineshop {
   background-color: var(--color-light-aqua);
   margin: 1.25rem auto;
 }
-#kirameki-cream .kirameki-cream__link-cart {
+.kirameki-cream .kirameki-cream__link-cart {
   background-color: var(--color-mint-green);
   margin: 0 auto 2.125rem;
 }
-#kirameki-cream .kirameki-cream__link-onlineshop:hover,#kirameki-cream .kirameki-cream__link-cart:hover {
+.kirameki-cream .kirameki-cream__link-onlineshop:hover,.kirameki-cream .kirameki-cream__link-cart:hover {
   opacity: .7;
 }
-#kirameki-cream .kirameki-cream__link-onlineshop a, #kirameki-cream .kirameki-cream__link-cart a {
+.kirameki-cream .kirameki-cream__link-onlineshop a, .kirameki-cream .kirameki-cream__link-cart a {
   color: var(--color-white);
 }
 
 
 @media (min-width:1450px) {
-  #kirameki-cream .kirameki-cream__container {
+  .kirameki-cream .kirameki-cream__container {
     width: calc(100% - 31.25rem);
     max-width: 62.5rem;
     height: 9.125rem;
@@ -252,35 +252,35 @@ img {
     margin: 3rem auto;
     padding: 2.75rem 3rem;
   }
-  #kirameki-cream .kirameki-cream__title-wrapper {
+  .kirameki-cream .kirameki-cream__title-wrapper {
     padding: 0;
     margin: 0;
   }
-  #kirameki-cream .kirameki-cream__title {
+  .kirameki-cream .kirameki-cream__title {
     font-size: 1.5rem;
     line-height: 1.46;
     letter-spacing: 0.15rem;
     text-align: left;
     white-space: nowrap;
   }
-  #kirameki-cream .kirameki-cream__text {
+  .kirameki-cream .kirameki-cream__text {
     font-size: 1rem;
     line-height: 1.44;
     letter-spacing: 0.1rem;
     text-align: left;
   }
-  #kirameki-cream .kirameki-cream__link-onlineshop,#kirameki-cream .kirameki-cream__link-cart {
+  .kirameki-cream .kirameki-cream__link-onlineshop,.kirameki-cream .kirameki-cream__link-cart {
     width: 18.75rem;
     height: 3.625rem;
     margin: 0;
   }
-  #kirameki-cream .kirameki-cream__link-onlineshop {
+  .kirameki-cream .kirameki-cream__link-onlineshop {
     margin-left: 2rem;
   }
 }
 
 @media (min-width:768px) and (max-width:1449px) {
-  #kirameki-cream .kirameki-cream__container {
+  .kirameki-cream .kirameki-cream__container {
     width: calc(100% - 2.5rem);
     height: auto;
     display: flex;
@@ -289,26 +289,26 @@ img {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-  #kirameki-cream .kirameki-cream__title-wrapper {
+  .kirameki-cream .kirameki-cream__title-wrapper {
     padding: 0;
     margin: 0 auto;
   }
-  #kirameki-cream .kirameki-cream__title {
+  .kirameki-cream .kirameki-cream__title {
     font-size: 1.5rem;
     line-height: 1.46;
     letter-spacing: 0.15rem;
     text-align: left;
   }
-  #kirameki-cream .kirameki-cream__text {
+  .kirameki-cream .kirameki-cream__text {
     font-size: 1rem;
     line-height: 1.44;
     letter-spacing: 0.1rem;
     text-align: left;
   }
-  #kirameki-cream .kirameki-cream__link-onlineshop,#kirameki-cream .kirameki-cream__link-cart {
+  .kirameki-cream .kirameki-cream__link-onlineshop,.kirameki-cream .kirameki-cream__link-cart {
     width: 18.75rem;
     height: 3.625rem;
     margin: 2rem auto 0;
   }
 }
-/* #kirameki-cream ここまで */
+/* .kirameki-cream ここまで */
