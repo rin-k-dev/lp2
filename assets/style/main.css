@@ -221,6 +221,7 @@ img {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: all .3s;
 }
 #kirameki-cream .kirameki-cream__link-onlineshop {
   background-color: var(--color-light-aqua);
@@ -230,9 +231,13 @@ img {
   background-color: var(--color-mint-green);
   margin: 0 auto 2.125rem;
 }
+#kirameki-cream .kirameki-cream__link-onlineshop:hover,#kirameki-cream .kirameki-cream__link-cart:hover {
+  opacity: .7;
+}
 #kirameki-cream .kirameki-cream__link-onlineshop a, #kirameki-cream .kirameki-cream__link-cart a {
   color: var(--color-white);
 }
+
 
 @media (min-width:1450px) {
   #kirameki-cream .kirameki-cream__container {
