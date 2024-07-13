@@ -237,6 +237,7 @@ img {
 @media (min-width:768px) {
   #kirameki-cream .kirameki-cream__container {
     width: calc(100% - 31.25rem);
+    max-width: 62.5rem;
     height: 9.125rem;
     display: flex;
     gap: 0;
