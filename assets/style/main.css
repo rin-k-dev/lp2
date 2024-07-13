@@ -327,6 +327,7 @@ img {
 #skin .skin__photo {
   width: 100%;
   height: auto;
+  max-height: 680px;
   background-image: url('../image/skin_sp.png');
   background-size: 100% 100%;
   aspect-ratio: 390 / 680;
@@ -375,6 +376,7 @@ img {
   #skin .skin__text-container {
     width: calc(100% - 18.75rem);
     max-width: 93.75rem;
+    max-height: 550px;
     margin: 0 auto;
     padding-right: 3.375rem;
     padding-left: 42.4375rem;
@@ -418,6 +420,7 @@ img {
   #skin .skin__photo {
     width: 100%;
     height: auto;
+    max-height: 550px;
     background-image: url('../image/skin_pc.png');
     background-size: 100% 100%;
     aspect-ratio: 1500 / 550;
