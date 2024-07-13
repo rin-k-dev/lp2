@@ -427,8 +427,10 @@ img {
     padding: 0;
   }
   #skin .skin__wrapper {
-    width: 29.1875rem;
+    width: 54%;
     margin: 0 auto;
+    margin-right: 1.25rem;
+    padding-top: 3rem;
   }
   #skin .skin__title {
     font-size: 2.375rem;
@@ -445,6 +447,8 @@ img {
     margin: 0;
     padding: 0;
     width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
   }
   #skin .skin__text {
     font-size: 0.875rem;
