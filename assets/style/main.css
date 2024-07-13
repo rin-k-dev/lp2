@@ -76,6 +76,12 @@ img {
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* 共通 ここまで */
 
 
@@ -314,5 +320,24 @@ img {
 /* .kirameki-cream ここまで */
 
 /* #skin ここから */
+#skin .skin__container {
+  width: calc(100% - 2rem);
+  margin:  0 auto;
+}
 
+#skin .skin__title {
+  font-size: 1.875rem;
+  line-height: 1.8;
+  font-weight: 700;
+}
+#skin .skin__subtitle {
+  font-size: 1.5rem;
+  line-height: 2.25;
+  font-weight: 600;
+}
+#skin .skin__text {
+  font-size: 0.875rem;
+  line-height: 2.29;
+  font-weight: 400;
+}
 /* #skin ここまで */
