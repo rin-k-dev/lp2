@@ -185,5 +185,30 @@ img {
 /* #main-visual ここまで */
 
 /* #kirameki-cream ここから */
-
+#kirameki-cream .kirameki-cream__container {
+  width: calc(100% - 2rem);
+  height: 16.3125rem;
+  margin: 9.8125rem auto 3.125rem;
+  background-color: var(--color-very-light-purple);
+}
+#kirameki-cream .kirameki-cream__title-wrapper {
+  padding-top: 1.25rem;
+}
+#kirameki-cream .kirameki-cream__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.44;
+  color: var(--color-very-dark-gray);
+  letter-spacing: 0.1125rem;
+  text-align: center;
+}
+#kirameki-cream .kirameki-cream__text {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.43;
+  color: var(--color-very-dark-gray);
+  letter-spacing: 0.0875rem;
+  text-align: center;
+  margin-top: 0.3125rem;
+}
 /* #kirameki-cream ここまで */
