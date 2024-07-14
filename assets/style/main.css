@@ -607,13 +607,13 @@ img {
   display: block;
   width: 9px;
   height: 9px;
-  content: url('../image/voices_dots_active_sp.svg');
+  content: url('../image/voices_dots_active.svg');
 }
 #voices .voices__dots-box li button::before {
   display: block;
   width: 9px;
   height: 9px;
-  content: url('../image/voices_dots_sp.svg');
+  content: url('../image/voices_dots.svg');
 }
 
 /* #voices ここまで */
