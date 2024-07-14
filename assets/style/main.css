@@ -562,6 +562,9 @@ img {
     background-color: var(--color-very-light-blue);
     margin: 2.5rem auto;
   }
+  #voices .voices__figure img.sp_only {
+    display: none;
+  }
   #voices .voices__figure img.pc_only {
     display: block;
     width: 6.25rem;
@@ -615,6 +618,18 @@ img {
   height: 9px;
   content: url('../image/voices_dots.svg');
   cursor: pointer;
+}
+
+@media(min-width:768px) {
+  #voices .voices__arrow-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2.5rem;
+  }
+  #voices .voices__item {
+    width: 300px;
+  }
 }
 
 /* #voices ここまで */
