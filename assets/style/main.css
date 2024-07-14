@@ -601,19 +601,20 @@ img {
 }
 #voices .voices__dots-box li {
   font-size: 0;
-  cursor: pointer;
 }
 #voices .voices__dots-box li.slick-active button::before {
   display: block;
   width: 9px;
   height: 9px;
   content: url('../image/voices_dots_active.svg');
+  cursor: pointer;
 }
 #voices .voices__dots-box li button::before {
   display: block;
   width: 9px;
   height: 9px;
   content: url('../image/voices_dots.svg');
+  cursor: pointer;
 }
 
 /* #voices ここまで */
