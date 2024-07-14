@@ -582,4 +582,10 @@ img {
   }
 }
 
+#voices .voices__arrow-box {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4375rem;
+}
+
 /* #voices ここまで */
