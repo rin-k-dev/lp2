@@ -595,6 +595,9 @@ img {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
 }
 #voices .voices__dots-box li {
   font-size: 0;
