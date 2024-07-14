@@ -441,6 +441,7 @@ img {
     padding: 0;
     text-align: left;
     width: 100%;
+    display: block;
   }
   #skin .skin__subtitle {
     font-size: 1.5rem;
@@ -451,6 +452,7 @@ img {
     width: 100%;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
+    display: block;
   }
   #skin .skin__text {
     font-size: 0.875rem;
@@ -483,5 +485,22 @@ img {
   letter-spacing: 0.05rem;
   color: var(--color-black);
   text-align: center;
+}
+
+@media(min-width:768px) {
+  #voices .voices__title {
+    font-size: 2.8125rem;
+    line-height: .71;
+    letter-spacing: 0.1406rem;
+    margin-top: 6rem;
+    display: block;
+  }
+  #voices .voices__subtitle {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.0625rem;
+    margin-top: 1rem;
+    display: block;
+  }
 }
 /* #voices ここまで */
