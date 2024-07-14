@@ -630,10 +630,8 @@ img {
   #voices .voices__item {
     width: 18.75rem;
   }
-  #voices .voices__item[data-slick-index="0"] {
-    margin-right: 2.5rem;
-  }
-  #voices .voices__item[data-slick-index="1"] {
+  #voices .voices__item[data-slick-index="0"] ,#voices .voices__item[data-slick-index="1"],#voices .voices__item[data-slick-index="2"],
+  #voices .voices__item[data-slick-index="3"] ,#voices .voices__item[data-slick-index="4"],#voices .voices__item[data-slick-index="5"]    {
     margin-right: 2.5rem;
   }
 }
