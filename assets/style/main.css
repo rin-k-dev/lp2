@@ -637,9 +637,16 @@ img {
   }
   #voices .voices__prev-arrow, #voices .voices__next-arrow {
     margin-top: 13.125rem;
+    cursor: pointer;
   }
   #voices .voices__content {
     margin-top: 0;
+  }
+  #voices .voices__dots-box {
+    margin-top: -1.125rem;
+  }
+  #voices .voices__dots-box li {
+    cursor: pointer;
   }
 }
 
