@@ -594,6 +594,7 @@ img {
 #voices .voices__dots-box {
   display: flex;
   flex-direction: row;
+  gap: 0.5rem;
 }
 #voices .voices__dots-box li {
   font-size: 0;
