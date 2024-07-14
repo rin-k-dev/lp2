@@ -625,8 +625,11 @@ img {
     display: flex;
     flex-direction: row;
     width: 100%;
+    max-width: 1156px;
     gap: 2.5rem;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   #voices .voices__item {
     width: 18.75rem;
