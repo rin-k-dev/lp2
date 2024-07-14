@@ -587,10 +587,8 @@ img {
   flex-direction: row;
   gap: 0.4375rem;
 }
-#voices .voices__arrow-box .slick-arrow {
-  cursor: pointer;
-}
 #voices .voices__prev-arrow, #voices .voices__next-arrow {
+  cursor: pointer;
   margin-top: 11.875rem;
 }
 
