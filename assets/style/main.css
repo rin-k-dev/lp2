@@ -511,7 +511,7 @@ img {
 #voices .voices__content {
   display: block;
   width: 17.5rem;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 #voices .voices__item {
   width: 100%;
