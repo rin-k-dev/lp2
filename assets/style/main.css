@@ -550,6 +550,7 @@ img {
 @media(min-width:768px) {
   #voices .voices__container {
     width: calc(100% - 21.5rem);
+    min-width: 1156px;
     margin: 0 auto;
   }
   #voices .voices__content {
