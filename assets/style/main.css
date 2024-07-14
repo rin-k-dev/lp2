@@ -630,6 +630,12 @@ img {
   #voices .voices__item {
     width: 18.75rem;
   }
+  #voices .voices__item[data-slick-index="0"] {
+    margin-right: 2.5rem;
+  }
+  #voices .voices__item[data-slick-index="1"] {
+    margin-right: 2.5rem;
+  }
 }
 
 /* #voices ここまで */
