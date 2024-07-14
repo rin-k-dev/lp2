@@ -591,5 +591,25 @@ img {
   cursor: pointer;
   margin-top: 11.875rem;
 }
+#voices .voices__dots-box {
+  display: flex;
+  flex-direction: row;
+}
+#voices .voices__dots-box li {
+  font-size: 0;
+  cursor: pointer;
+}
+#voices .voices__dots-box li.slick-active button::before {
+  display: block;
+  width: 9px;
+  height: 9px;
+  content: url('../image/voices_dots_active_sp.svg');
+}
+#voices .voices__dots-box li button::before {
+  display: block;
+  width: 9px;
+  height: 9px;
+  content: url('../image/voices_dots_sp.svg');
+}
 
 /* #voices ここまで */

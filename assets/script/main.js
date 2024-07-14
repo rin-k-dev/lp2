@@ -1,5 +1,6 @@
 $('.voices__slider').slick({
   dots: true,
+  dotsClass: 'voices__dots-box',
   infinite: true,
   arrows: true,
   appendArrows: $('.voices__arrow-box'),
