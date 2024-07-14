@@ -524,6 +524,9 @@ img {
   padding-top: 1.75rem;
   padding-bottom: 0;
 }
+#voices .voices__figure img.pc_only {
+  display: none;
+}
 #voices .voices__caption {
   font-size: 0.875rem;
   line-height: 2.29;
@@ -560,6 +563,7 @@ img {
     margin: 2.5rem auto;
   }
   #voices .voices__figure img.pc_only {
+    display: block;
     width: 6.25rem;
     margin: 0 auto;
     padding: 0;
@@ -577,6 +581,5 @@ img {
     line-height: 1.75;
   }
 }
-
 
 /* #voices ここまで */
