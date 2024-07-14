@@ -520,7 +520,9 @@ img {
 }
 #voices .voices__figure img.sp_only {
   width: 5rem;
-  margin: 0 auto;
+  margin-left: 37.5%;
+  padding-top: 1.75rem;
+  padding-bottom: 0;
 }
 #voices .voices__caption {
   font-size: 0.875rem;
@@ -528,6 +530,7 @@ img {
   letter-spacing: 0.0437rem;
   font-weight: 400;
   color: var(--color-black);
+  text-align: center;
 }
 #voices .voices__text {
   font-size: 0.875rem;
