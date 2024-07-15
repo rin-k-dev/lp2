@@ -35,4 +35,19 @@ $(document).ready(function () {
       }
     }]
   });
+
+  $('.faq__accordion-toggle').click(function() {
+    let icon = $(this).find('.faq__accordion-icon');
+    let content = $(this).closest('.faq__card').find('.faq__accordion-content');
+
+    if (content.is(':visible')) {
+      content.slideUp();
+      icon.removeClass('bi-caret-up-fill').addClass('bi-caret-down-fill');
+    } else {
+      $('.faq__accordion-content').slideUp();
+      $('.faq__accordion-icon').removeClass('bi-caret-up-fill').addClass('bi-caret-down-fill');
+      content.slideDown();
+      icon.removeClass('bi-caret-down-fill').addClass('bi-caret-up-fill');
+    }
+  });
 });
