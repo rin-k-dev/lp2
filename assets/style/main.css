@@ -773,6 +773,7 @@ img {
   width: calc(100% - 2rem);
   margin: 0 auto;
   background-color: var(--color-white);
+  padding-top: 0.9375rem;
 }
 #faq .faq__question-title {
   color: var(--color-dark-gray);
@@ -788,10 +789,14 @@ img {
   font-weight: 500;
   display: block;
   text-align: left;
-  width: 75.7%;
+  width: 83.44%;
 }
 #faq .faq__accordion-icon {
   color: var(--color-black);
+  width: 10px;
+  height: 6.45px;
+  display: block;
+  margin-right: 0.1875rem;
 }
 #faq .faq__answer-title {
   color: var(--color-black);
@@ -807,5 +812,17 @@ img {
   text-align: left;
   display: block;
   width: 82.96%;
+}
+#faq .faq__accordion-question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90.89%;
+  margin:  0 auto;
+  gap: 0;
+}
+
+#faq .faq__accordion-container {
+  margin-top: 2.3125rem;
 }
 /* #faq ここまで */
