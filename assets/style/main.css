@@ -512,7 +512,7 @@ img {
 #voices .voices__content {
   display: block;
   width: 17.5rem;
-  margin: 2rem auto;
+  margin: 2rem auto 3.125rem;
 }
 #voices .voices__item {
   width: 100%;
@@ -593,6 +593,7 @@ img {
   #voices .voices__content {
     width: 100%;
     max-width: 980px;
+    margin-bottom: 5rem;
   }
   #voices .voices__item {
     width: 18.75rem;
@@ -662,7 +663,7 @@ img {
   }
   #voices .voices__content {
     width: 18.75rem;
-    margin: 0 auto;
+    margin: 0 auto 5rem;
   }
   #voices .voices__item {
     width: 100%;
@@ -726,5 +727,45 @@ img {
 /* #voices ここまで */
 
 /* #faq ここから */
+#faq .faq__container {
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(90deg, var(--color-light-green) 0%, var(--color-light-blue) 100%);
+}
 
+#faq .faq__title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.0938rem;
+  color: var(--color-black);
+  text-align: center;
+  padding-top: 2rem;
+  margin-left: 0.0625rem;
+}
+#faq .faq__subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 0.05rem;
+  color: var(--color-black);
+}
+
+@media(min-width:768px) {
+  #faq .faq__title {
+    font-size: 2.8125rem;
+    line-height: .71;
+    letter-spacing: 0.1406rem;
+    display: block;
+    padding-top: 3.4375rem;
+    padding-right: 0.0625rem;
+  }
+  #faq .faq__subtitle {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.0625rem;
+    display: block;
+    margin-top: 1rem;
+  }
+}
 /* #faq ここまで */
