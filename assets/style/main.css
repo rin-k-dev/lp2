@@ -922,7 +922,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
   #faq .faq__accordion-container {
     margin-top: 2.5rem;
