@@ -949,3 +949,14 @@ img {
   }
 }
 /* #faq ここまで */
+
+/* #kirameki-cream-02 ここから */
+#kirameki-cream-02 .kirameki-cream__container {
+  margin: 3.125rem auto;
+}
+@media(min-width:768px) {
+  #kirameki-cream-02 .kirameki-cream__container {
+    margin: 2.8125rem auto;
+  }
+}
+/* #kirameki-cream-02 ここまで */
