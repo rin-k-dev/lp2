@@ -768,4 +768,44 @@ img {
     margin-top: 1rem;
   }
 }
+
+#faq .faq__accordion {
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  background-color: var(--color-white);
+}
+#faq .faq__question-title {
+  color: var(--color-dark-gray);
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+}
+#faq .faq__question-text {
+  color: var(--color-dark-gray);
+  font-size: 0.9375rem;
+  line-height: 1.87;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  width: 75.7%;
+}
+#faq .faq__accordion-icon {
+  color: var(--color-black);
+}
+#faq .faq__answer-title {
+  color: var(--color-black);
+  font-size: 1rem;
+  line-height: .64;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+}
+#faq .faq__answer-text {
+  color: var(--color-black);
+  font-size: 0.9375rem;
+  line-height: 1.87;
+  text-align: left;
+  display: block;
+  width: 82.96%;
+}
 /* #faq ここまで */
