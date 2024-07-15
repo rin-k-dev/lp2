@@ -774,6 +774,7 @@ img {
   margin: 0 auto;
   background-color: var(--color-white);
   padding-top: 0.9375rem;
+  padding-bottom: 2.0625rem;
 }
 #faq .faq__question-title {
   color: var(--color-dark-gray);
@@ -804,6 +805,9 @@ img {
   line-height: .64;
   letter-spacing: 0.05rem;
   font-weight: 500;
+  margin: 0 auto;
+  margin-left: 1rem;
+  margin-top: 1.125rem;
 }
 #faq .faq__answer-text {
   color: var(--color-black);
@@ -812,6 +816,9 @@ img {
   text-align: left;
   display: block;
   width: 82.96%;
+  margin: 0 auto;
+  margin-right: 1rem;
+  margin-top: 0.625rem;
 }
 #faq .faq__accordion-question {
   display: flex;
@@ -821,8 +828,14 @@ img {
   margin:  0 auto;
   gap: 0;
 }
-
+#faq .faq__accordion-answer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 #faq .faq__accordion-container {
   margin-top: 2.3125rem;
+  margin-bottom: 1.25rem;
 }
 /* #faq ここまで */
