@@ -780,7 +780,7 @@ img {
   line-height: 2;
   letter-spacing: 0.05rem;
   font-weight: 500;
-  margin-top: -0.0625rem;
+  margin-top: 0;
 }
 #faq .faq__question-text {
   color: var(--color-dark-gray);
@@ -807,7 +807,6 @@ img {
   font-weight: 500;
   margin: 0 auto;
   margin-left: 1rem;
-  margin-top: 1.125rem;
 }
 #faq .faq__answer-text {
   color: var(--color-black);
@@ -817,8 +816,8 @@ img {
   display: block;
   width: 82.96%;
   margin: 0 auto;
-  margin-top: 0.75rem;
   margin-right: 1rem;
+  margin-top: -0.3125rem;
 }
 #faq .faq__accordion-question {
   display: flex;
@@ -827,13 +826,15 @@ img {
   width: 90.89%;
   margin:  0 auto;
   gap: 0;
-  margin-top: -0.3125rem;
 }
 #faq .faq__accordion-answer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
+  width: 100%;
+  height: 12.125rem;
+  padding-bottom: 2.0625rem;
 }
 #faq .faq__accordion-container {
   margin-top: 2.3125rem;
@@ -843,12 +844,14 @@ img {
   display: none;
 }
 #faq .faq__accordion-toggle {
-  padding-bottom: 1.125rem;
-  padding-top: 1.25rem;
+  padding-bottom: 0;
+  padding-top: 0.9375rem;
+  width: 100%;
+  height: 5.5625rem;
 }
 #faq .faq__accordion-content {
-  margin-top: -1.1875rem;
-  padding-bottom: 1.875rem;
+  margin-top: 0;
+  padding-bottom: 0;
 }
 #faq .faq__accordion-container ul li {
   margin-bottom: 1.25rem;
