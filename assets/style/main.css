@@ -926,7 +926,7 @@ img {
   }
   #faq .faq__accordion-container {
     margin-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.25rem;
   }
   #faq .faq__accordion-content {
     display: none;
