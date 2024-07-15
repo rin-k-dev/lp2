@@ -865,7 +865,7 @@ img {
     line-height: 1.78;
     letter-spacing: 0.0563rem;
     font-weight: 500;
-    margin-top: -0.0625rem;
+    margin-top: 0;
   }
   #faq .faq__question-text {
     color: var(--color-dark-gray);
@@ -881,8 +881,8 @@ img {
     width: 12px;
     height: 7.74px;
     display: block;
-    margin-right: 0.1875rem;
-    margin-top: -0.0625rem;
+    margin-right: 0;
+    margin-top: 0;
   }
   #faq .faq__answer-title {
     color: var(--color-black);
@@ -891,8 +891,8 @@ img {
     letter-spacing: 0.0563rem;
     font-weight: 500;
     margin: 0 auto;
-    margin-left: 1rem;
-    margin-top: 1.125rem;
+    margin-left: 0;
+    margin-top: 0;
   }
   #faq .faq__answer-text {
     color: var(--color-black);
@@ -902,8 +902,8 @@ img {
     display: block;
     width: 32.375rem;
     margin: 0 auto;
-    margin-top: 0.75rem;
-    margin-right: 1rem;
+    margin-top: 0;
+    margin-right: 0;
   }
   #faq .faq__accordion-question {
     display: flex;
@@ -912,7 +912,7 @@ img {
     width: 90.89%;
     margin:  0 auto;
     gap: 0;
-    margin-top: -0.3125rem;
+    margin-top: 0;
   }
   #faq .faq__accordion-answer {
     display: flex;
@@ -921,7 +921,7 @@ img {
     margin: 0 auto;
   }
   #faq .faq__accordion-container {
-    margin-top: 2.3125rem;
+    margin-top: 2.5rem;
     padding-bottom: 0.75rem;
   }
   #faq .faq__accordion-content {
