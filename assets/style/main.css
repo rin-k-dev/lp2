@@ -865,7 +865,7 @@ img {
     line-height: 1.78;
     letter-spacing: 0.0563rem;
     font-weight: 500;
-    margin-top: 0;
+    margin-top: -0.1875rem;
     margin-left: -0.3125rem;
   }
   #faq .faq__question-text {
@@ -885,7 +885,7 @@ img {
     height: 7.74px;
     display: block;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: -0.1875rem;
   }
   #faq .faq__answer-title {
     color: var(--color-black);
