@@ -1135,7 +1135,12 @@ img {
   text-align: center;
   vertical-align: -0.3em;
 }
-@media(min-width:768px) and (max-width:1024px) {
+@media(min-width:1200px) {
+  .back-to-top {
+    right: calc((100% - 1200px) / 2);
+  }
+}
+@media(min-width:768px) and (max-width:1199px) {
   .back-to-top {
     right: 1.25em;
   }
