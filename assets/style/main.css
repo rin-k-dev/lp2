@@ -330,7 +330,8 @@ img {
   height: auto;
   max-height: 680px;
   background-image: url('../image/skin_sp.png');
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 50% 50%;
   aspect-ratio: 390 / 680;
 }
 #skin .skin__title {
@@ -371,7 +372,8 @@ img {
     width: 100%;
     height: auto;
     background-image: url('../image/skin_pc.png');
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: 50% 50%;
     aspect-ratio: 1500 / 550;
   }
   #skin .skin__text-container {
@@ -423,7 +425,8 @@ img {
     height: auto;
     max-height: 550px;
     background-image: url('../image/skin_pc.png');
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: 50% 50%;
     aspect-ratio: 1500 / 550;
   }
   #skin .skin__text-container {
