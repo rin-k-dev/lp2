@@ -1112,3 +1112,26 @@ img {
   }
 }
 /* #footer ここまで */
+
+/* .back-to-top ここから */
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 1em;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-blue);
+}
+.back-to-top a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-to-top .bi-arrow-up-short::before {
+  color: var(--color-white);
+  font-size: 2em;
+  text-align: center;
+  vertical-align: 0;
+}
+/* .back-to-top ここまで */
