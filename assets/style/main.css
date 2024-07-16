@@ -980,4 +980,29 @@ img {
 #footer .footer__logo img.pc_only {
   display: none;
 }
+#footer .footer__nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.875rem;
+  width: 18.75rem;
+  margin: 0 auto;
+  margin-top: -0.7rem;
+}
+#footer .footer__nav ul li a {
+  color: var(--color-white);
+  font-size: 0.75rem;
+  line-height: 1.42;
+  font-weight: 400;
+  cursor: pointer;
+}
+#footer .footer__text {
+  color: var(--color-white);
+  font-size: 0.6875rem;
+  line-height: 1.45;
+  font-weight: 400;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1.125rem;
+}
 /* #footer ここまで */
