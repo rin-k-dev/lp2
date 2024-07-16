@@ -826,6 +826,8 @@ img {
   justify-content: space-between;
   width: 90.89%;
   margin:  0 auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
   gap: 0;
 }
 #faq .faq__accordion-answer {
