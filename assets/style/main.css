@@ -1135,4 +1135,9 @@ img {
   text-align: center;
   vertical-align: -0.3em;
 }
+@media(min-width:768px) and (max-width:1024px) {
+  .back-to-top {
+    right: 1.25em;
+  }
+}
 /* .back-to-top ここまで */
