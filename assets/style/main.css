@@ -849,6 +849,7 @@ img {
   padding-top: 0.9375rem;
   width: 100%;
   height: 5.5625rem;
+  cursor: pointer;
 }
 #faq .faq__accordion-content {
   margin-top: 0;
