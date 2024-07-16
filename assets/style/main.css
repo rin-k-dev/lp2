@@ -36,6 +36,7 @@ body {
   color: var(--color-very-dark-gray);
   letter-spacing: 0;
   line-height: 2.29;
+  position: relative;
 }
 
 a {
@@ -1132,6 +1133,6 @@ img {
   color: var(--color-white);
   font-size: 2em;
   text-align: center;
-  vertical-align: 0;
+  vertical-align: -0.3em;
 }
 /* .back-to-top ここまで */

@@ -51,3 +51,35 @@ $(document).ready(function () {
     }
   });
 });
+
+$(function () {
+  const pagetop = $("#js-pagetop");
+  pagetop.hide();
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      pagetop.fadeIn();
+    } else {
+      pagetop.fadeOut();
+    }
+  });
+  pagetop.click(function () {
+    $("body,html").animate({
+        scrollTop: 0,
+      },300);
+    return false;
+  });
+});
+
+$(document).ready(function () {
+  $("#js-pagetop").hide();
+  $(window).on("scroll", function () {
+    scrollHeight = $(document).height();
+    scrollPosition = $(window).height() + $(window).scrollTop();
+    footHeight = $("footer").innerHeight();
+    if (scrollHeight - scrollPosition <= footHeight) {
+      $("#js-pagetop").css({ position: "absolute", bottom: footHeight });
+    } else {
+      $("#js-pagetop").css({ position: "fixed", bottom: "0px" });
+    }
+  });
+});
