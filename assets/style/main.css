@@ -92,7 +92,8 @@ img {
   width: 100%;
   height: 28.125rem;
   background-image: url('../image/main_visual_sp.png');
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 #main-visual .main-visual__title img.sp_only {
@@ -126,6 +127,7 @@ img {
     height: auto;
     background-image: url('../image/main_visual_pc.png');
     background-size: cover;
+    background-position: 50% 50%;
     aspect-ratio: 1500 / 720;
     background-repeat: no-repeat;
   }
