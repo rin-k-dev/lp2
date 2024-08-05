@@ -14,6 +14,7 @@ $(document).ready(function () {
     responsive: [{
       breakpoint: 1200,
       settings: {
+        infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         variableWidth: true,
@@ -25,6 +26,7 @@ $(document).ready(function () {
     }, {
       breakpoint: 768,
       settings: {
+        infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         variableWidth: false,
